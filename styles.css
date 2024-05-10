@@ -9,7 +9,7 @@
 }
 
 html {
-    font-size: 0.81rem;
+    font-size: 0.91rem;
 }
 
 body {
@@ -32,12 +32,16 @@ body::-webkit-scrollbar {
 
 .testimonials-section {
     margin: 0 auto;
-    margin-top: 12.692rem;
-    margin-bottom: 12.692rem;
-    max-width: 77.083%;
+    margin-top: 10rem;
+    /* Reduced from 12.692rem */
+    margin-bottom: 10rem;
+    /* Reduced from 12.692rem */
+    max-width: 80%;
+    /* Increased from 77.083% */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2.308rem;
+    gap: 2rem;
+    /* Reduced from 2.308rem */
     justify-content: center;
 }
 
@@ -46,9 +50,11 @@ body::-webkit-scrollbar {
 .testimonials-section>* {
     display: flex;
     flex-direction: column;
-    gap: 14px;
+    gap: 1.5rem;
+    /* Reduced from 14px */
     border-radius: 10px;
-    padding: 1.9rem 2.6rem;
+    padding: 2rem 3rem;
+    /* Increased from 1.9rem 2.6rem */
 }
 
 .section-1,
@@ -90,11 +96,13 @@ body::-webkit-scrollbar {
 }
 
 /** Author **/
+
 .author {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 15px;
+    gap: 1rem;
+    /* Reduced from 15px */
 }
 
 .section-1 .author-info,
@@ -123,8 +131,10 @@ body::-webkit-scrollbar {
 
 .author-img {
     border-radius: 50%;
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 3rem;
+    /* Increased from 2.5rem */
+    height: 3rem;
+    /* Increased from 2.5rem */
 }
 
 .section-1 .author-img,
@@ -142,6 +152,7 @@ body::-webkit-scrollbar {
 }
 
 /** Hightlight Content **/
+
 .highlight-content {
     font-size: 1.5rem;
     word-spacing: 1.7px;
@@ -163,7 +174,8 @@ body::-webkit-scrollbar {
 
 @media screen and (max-width: 1201px) {
     .testimonials-section {
-        margin-top: 5.385rem;
+        margin-top: 5rem;
+        /* Reduced from 5.385rem */
     }
 
     .section-2,
