@@ -23,25 +23,22 @@ body {
     font-family: "Barlow Semi Condensed", sans-serif;
 }
 
-body::-webkit-scrollbar {
-    display: none;
-    /* for Chrome, Safari, and Opera */
-}
+
 
 /** Testimonials Section **/
 
 .testimonials-section {
     margin: 0 auto;
-    margin-top: 10rem;
-    /* Reduced from 12.692rem */
+    margin-top: 8rem;
+   
     margin-bottom: 10rem;
-    /* Reduced from 12.692rem */
+   
     max-width: 80%;
-    /* Increased from 77.083% */
+   
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2rem;
-    /* Reduced from 2.308rem */
+    
     justify-content: center;
 }
 
